@@ -1,12 +1,30 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Home Page</title>
-  </head>
-  <body>
-    <a href="exampleTemplate.html">2 Column Layout</a>
-    <a href="3ColumnLayout.html">3 Column Layout</a>
-  </body>
-
-
-
+<head>
+<meta charset="ISO-8859-1">
+<title>Basic Drop Down Menu</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="menu-wrap">
+    <nav class="menu">
+        <ul class="clearfix">
+            <li><a href="#">Home</a></li>
+            <li>
+                <a href="#">Movies <span class="arrow">&#9660;</span></a>
+ 
+                <ul class="sub-menu">
+                    <li><a href="#">In Cinemas Now</a></li>
+                    <li><a href="#">Coming Soon</a></li>
+                    <li><a href="#">On DVD/Blu-ray</a></li>
+                    <li><a href="#">Showtimes &amp; Tickets</a></li>
+                </ul>
+            </li>
+            <li><a href="#">T.V. Shows</a></li>
+            <li class="current-item"><a href="#">Photos</a></li>
+            <li><a href="#">Site Help</a></li>
+        </ul>
+    </nav>
+</div>
+</body>
 </html>

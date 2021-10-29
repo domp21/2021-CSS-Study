@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Example Template - 2 Columns</title>
+    <title>Example Template - 3 Columns</title>
     <style>
         body {
-            background-color: gray;
+            background-color: yellow;
         }
 
         .container {
@@ -61,24 +61,29 @@
             padding-left: 10px;
             padding-right: 10px;
         }
-        .row:after{
-            content: "";
-            display: table;
-            clear: both;
+        div.middle{
+          text-align: center;
+
         }
+        .row:after{
+          content: "";
+          display: table;
+          clear: both;
+        }
+
         #sidebar {
 
         }
         #footer{
-            text-align: center;
-            padding: 20px;
-            font-size: 25px;
-            background-color: blue;
-            color: white;
+          text-align; center;
+          padding: 20px;
+          font-size: 25px;
+          background-color: blue;
+          color: white;
         }
         div#footer a{
-            color: white;
-            text-decoration: none;
+          color: white;
+          text-decoration: none;
         }
     </style>
 </head>
@@ -86,7 +91,7 @@
 <div class="container">
     <div class="row">
         <div id="header">
-            Basic 2 Column CSS Template
+            Basic 3 Column CSS Template
         </div>
     </div>
     <div class="row">
@@ -94,24 +99,13 @@
             <li><a href="#" class="active">Home</a></li>
             <li><a href="#">Products</a></li>
             <li><a href="#">About</a></li>
-            <li>
-              <div class="dropdown">
-                <button class="dropButton">Socials
-                  <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdownContent">
-                  <a href="#">Facebook</a>
-                  <a href="#">Twitter</a>
-                  <a href="#">Snapchat</a>
-                  <a href="#">Whatsapp</a>
-                  <a href="#">Signal</a>
-                  <a href="#">LinkedIn</a>
-                </div>
-            </div>
-            </li>
+            <li><a href="#">Socials</a></li>
             <li style="float:right;"><a href="#">Contact</a></li>
         </ul>
     </div>
+  <div class="middle">
+
+   </div>
     <div class="row">
         <div id="content">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -132,8 +126,8 @@
     </div>
     <div class="row">
         <div id="footer">
-            Copyright 2021 | Web Design | <a href="mailto:drew.fischer@vtsd.com">akiedes@vtsd.com</a>
-        </div>
+          Copyright 2021 | Web Design | <a href="mailto:domenic.papaleo@yahoo.com">Contact</a>
+      </div>
     </div>
 
 
